@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 
-from mako_application import views
+from home import views
 
 urlpatterns = (
     url(r'^$', views.home),
